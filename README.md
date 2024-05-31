@@ -80,11 +80,9 @@ Synthego ICE can be installed as a docker container or directly via pip. Additio
 Install into your favorite python3 virtual environment (virtualenv, conda).
 
 ```bash
-conda create --name ice_env python=3 # create a python3 virtual environment
-
-source activate ice_env # activate the virtual environment
-
-pip install sythego_ice # install synthego ice from pip
+conda create --name ice_env python=3
+source activate ice_env
+pip install synthego-ice
 ```
 
 After installation, you can use Synthego ICE as a module (see  [python_example.py](./python_example.py)) or directly via command line.
