@@ -130,7 +130,7 @@ After installation, you can use Synthego ICE as a module (see  [python_example.p
 After installing via pip, grab the example data by cloning this repository:
 
 ```bash
-git clone git@github.com:synthego-open/ice.git ice
+git clone https://github.com/synthego-open/ice.git
 
 cd ice # change into the ice directory
 ```
